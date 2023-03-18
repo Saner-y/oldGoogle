@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#search{
+    margin-bottom: 3px;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: block;
+    text-align: center;  
+    background-color: lightgray;  
+}
+#searchbar{
+    width: 300px;
+}
+.end{
+    height: 7em;
+    font-size: small;
+    display: block;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: #62b3aa;
+    background-image: 
+    linear-gradient(
+        to left,
+    #62b3aa, #7ee5da)
+    
+}
+#left{
+    width: 262px;
+    display: block;
+    clear: right;
+    float: left;
+    text-align: center;
+    margin-right: 2px;
+}
+#middle{
+    width: 262px;
+    margin-left: 0px;
+    margin-right: 2px;
+    display: block;
+    clear:right;
+    float:left;
+    overflow: auto;
+}
+#right{
+    clear:right;
+    margin-left: 2px;
+    float: right;
+    width: 262,5px;
+    display: block;
+    overflow: auto;
+    text-align: center;
+}
+#leftList{
+    padding-right: 40px;
+    list-style-type:none ;
+}
+#middleList{
+    padding-right: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+#mail{
+    margin-bottom: 0px;
+}
+#mailbar{
+    height: 13px;
+}
