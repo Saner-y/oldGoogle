@@ -6,14 +6,16 @@ img{
     margin: auto;
     margin-top: 20px;
 }
-
+#searchInfo{
+    margin-bottom: 1px;
+}
 #search{
     margin-bottom: 3px;
     margin-left: 7%;
     margin-right: 7%;
     display: block;
     text-align: center;  
-    background-color: lightgray;  
+    background-color: #f4f0f0;  
 }
 #searchbar{
     width: 300px;
@@ -32,17 +34,17 @@ img{
     
 }
 #left{
-    width: 262px;
+    width: 35%;
     display: block;
     clear: right;
     float: left;
     text-align: center;
-    margin-right: 2px;
+    margin-right: 0.1%;
 }
 #middle{
-    width: 262px;
+    width: 15.8%;
     margin-left: 0px;
-    margin-right: 2px;
+    margin-right: 0px;
     display: block;
     clear:right;
     float:left;
@@ -50,9 +52,9 @@ img{
 }
 #right{
     clear:right;
-    margin-left: 2px;
+    margin-left: 0.1%;
     float: right;
-    width: 262,5px;
+    width: 35%;
     display: block;
     overflow: auto;
     text-align: center;
@@ -71,4 +73,9 @@ img{
 }
 #mailbar{
     height: 13px;
+}
+#copyright{
+    margin-top: 8%;
+    text-align: center;
+    font-size: small;
 }
